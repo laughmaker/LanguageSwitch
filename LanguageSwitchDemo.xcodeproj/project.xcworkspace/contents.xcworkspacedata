@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChangeLanguageDemo.xcodeproj">
+      location = "self:/Users/lza/Desktop/ChangeLanguageDemo/LanguageSwitchDemo.xcodeproj">
    </FileRef>
 </Workspace>

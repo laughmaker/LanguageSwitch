@@ -17,7 +17,7 @@
                BlueprintIdentifier = "284133511D35D5960066BD56"
                BuildableName = "ChangeLanguageDemo.app"
                BlueprintName = "ChangeLanguageDemo"
-               ReferencedContainer = "container:ChangeLanguageDemo.xcodeproj">
+               ReferencedContainer = "container:LanguageSwitchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "284133511D35D5960066BD56"
             BuildableName = "ChangeLanguageDemo.app"
             BlueprintName = "ChangeLanguageDemo"
-            ReferencedContainer = "container:ChangeLanguageDemo.xcodeproj">
+            ReferencedContainer = "container:LanguageSwitchDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "284133511D35D5960066BD56"
             BuildableName = "ChangeLanguageDemo.app"
             BlueprintName = "ChangeLanguageDemo"
-            ReferencedContainer = "container:ChangeLanguageDemo.xcodeproj">
+            ReferencedContainer = "container:LanguageSwitchDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "284133511D35D5960066BD56"
             BuildableName = "ChangeLanguageDemo.app"
             BlueprintName = "ChangeLanguageDemo"
-            ReferencedContainer = "container:ChangeLanguageDemo.xcodeproj">
+            ReferencedContainer = "container:LanguageSwitchDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
