@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "TWLanguageSwitch.h"
 
 @interface SettingsViewController ()
 - (IBAction)setupChineseLanguage:(id)sender;
@@ -18,13 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+
 }
 
 - (IBAction)setupChineseLanguage:(id)sender {
+    [[TWLanguageSwitch sharedInstance] resetLanguage:kTWLanguageChinese];
 }
 
 - (IBAction)setupEnglishLanguage:(id)sender {
+    [[TWLanguageSwitch sharedInstance] resetLanguage:kTWLanguageEnglish];
 }
 
 

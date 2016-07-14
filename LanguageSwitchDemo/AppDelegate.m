@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TWLanguageSwitch.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [TWLanguageSwitch sharedInstance].resetCompletionHandler = ^() {
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UITabBarController *vc = [sb instantiateInitialViewController];
+        self.window.rootViewController = vc;
+        vc.selectedIndex = 1;
+    };
+    
     return YES;
 }
 

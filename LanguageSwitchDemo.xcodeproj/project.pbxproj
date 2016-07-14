@@ -14,6 +14,9 @@
 		284133621D35D5960066BD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284133611D35D5960066BD56 /* Assets.xcassets */; };
 		284133651D35D5960066BD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284133631D35D5960066BD56 /* LaunchScreen.storyboard */; };
 		2841336E1D35D9D30066BD56 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2841336D1D35D9D30066BD56 /* SettingsViewController.m */; };
+		28B40DFA1D371D720034DD59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B40DFC1D371D720034DD59 /* Localizable.strings */; };
+		28B40E031D3730140034DD59 /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 28B40E021D3730140034DD59 /* AutoGenStrings.py */; };
+		28B9ACE21D36355F0048764A /* 60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ACE41D36355F0048764A /* 60@3x.png */; };
 		28FD1A841D36267300D7DB10 /* TWLanguageSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD1A831D36267300D7DB10 /* TWLanguageSwitch.m */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +27,18 @@
 		284133591D35D5960066BD56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2841335B1D35D5960066BD56 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		2841335C1D35D5960066BD56 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		2841335F1D35D5960066BD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		284133611D35D5960066BD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		284133641D35D5960066BD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284133661D35D5960066BD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2841336C1D35D9D30066BD56 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		2841336D1D35D9D30066BD56 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		28B40DFB1D371D720034DD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		28B40DFD1D371D750034DD59 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		28B40DFF1D372F8A0034DD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28B40E001D372F8A0034DD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B40E021D3730140034DD59 /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
+		28B9ACDD1D3631C00048764A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		28B9ACE31D36355F0048764A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/60@3x.png"; sourceTree = "<group>"; };
+		28B9ACE51D3635640048764A /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/60@3x.png"; sourceTree = "<group>"; };
 		28FD1A821D36267300D7DB10 /* TWLanguageSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLanguageSwitch.h; sourceTree = "<group>"; };
 		28FD1A831D36267300D7DB10 /* TWLanguageSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLanguageSwitch.m; sourceTree = "<group>"; };
 		F0C2512BEFD53A409683DC6A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +84,8 @@
 		284133541D35D5960066BD56 /* LanguageSwitchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2841336C1D35D9D30066BD56 /* SettingsViewController.h */,
+				2841336D1D35D9D30066BD56 /* SettingsViewController.m */,
 				284133581D35D5960066BD56 /* AppDelegate.h */,
 				284133591D35D5960066BD56 /* AppDelegate.m */,
 				2841335B1D35D5960066BD56 /* HomeViewController.h */,
@@ -84,8 +95,6 @@
 				284133631D35D5960066BD56 /* LaunchScreen.storyboard */,
 				284133661D35D5960066BD56 /* Info.plist */,
 				284133551D35D5960066BD56 /* Supporting Files */,
-				2841336C1D35D9D30066BD56 /* SettingsViewController.h */,
-				2841336D1D35D9D30066BD56 /* SettingsViewController.m */,
 			);
 			path = LanguageSwitchDemo;
 			sourceTree = "<group>";
@@ -93,14 +102,25 @@
 		284133551D35D5960066BD56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28B9ACE41D36355F0048764A /* 60@3x.png */,
 				284133561D35D5960066BD56 /* main.m */,
+				28B40DFC1D371D720034DD59 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28B40E011D3730140034DD59 /* RunScript */ = {
+			isa = PBXGroup;
+			children = (
+				28B40E021D3730140034DD59 /* AutoGenStrings.py */,
+			);
+			path = RunScript;
 			sourceTree = "<group>";
 		};
 		28FD1A811D36267300D7DB10 /* LanguageSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				28B40E011D3730140034DD59 /* RunScript */,
 				28FD1A821D36267300D7DB10 /* TWLanguageSwitch.h */,
 				28FD1A831D36267300D7DB10 /* TWLanguageSwitch.m */,
 			);
@@ -117,6 +137,7 @@
 				2841334E1D35D5960066BD56 /* Sources */,
 				2841334F1D35D5960066BD56 /* Frameworks */,
 				284133501D35D5960066BD56 /* Resources */,
+				28B40E041D3730370034DD59 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -148,6 +169,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 				Base,
 			);
 			mainGroup = 284133491D35D5960066BD56;
@@ -165,13 +187,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B40DFA1D371D720034DD59 /* Localizable.strings in Resources */,
 				284133651D35D5960066BD56 /* LaunchScreen.storyboard in Resources */,
+				28B9ACE21D36355F0048764A /* 60@3x.png in Resources */,
+				28B40E031D3730140034DD59 /* AutoGenStrings.py in Resources */,
 				284133621D35D5960066BD56 /* Assets.xcassets in Resources */,
 				284133601D35D5960066BD56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B40E041D3730370034DD59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${SRCROOT}/iOS-i18n/i18n/RunScript/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}//参数为StoryBoard，XIB所在目录";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2841334E1D35D5960066BD56 /* Sources */ = {
@@ -192,7 +233,7 @@
 		2841335E1D35D5960066BD56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2841335F1D35D5960066BD56 /* Base */,
+				28B40DFF1D372F8A0034DD59 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -200,9 +241,28 @@
 		284133631D35D5960066BD56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				284133641D35D5960066BD56 /* Base */,
+				28B9ACDD1D3631C00048764A /* zh-Hans */,
+				28B40E001D372F8A0034DD59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		28B40DFC1D371D720034DD59 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B40DFB1D371D720034DD59 /* en */,
+				28B40DFD1D371D750034DD59 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		28B9ACE41D36355F0048764A /* 60@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B9ACE31D36355F0048764A /* zh-Hans */,
+				28B9ACE51D3635640048764A /* en */,
+			);
+			name = "60@3x.png";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

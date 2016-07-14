@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "TWLanguageSwitch.h"
 
 @interface HomeViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
+    UILabel *lbl = [[UILabel alloc] initWithFrame:self.view.bounds];
+    lbl.text = TWGetStringWithKey(@"测试");
+    lbl.textAlignment = NSTextAlignmentCenter;
+    lbl.font = [UIFont boldSystemFontOfSize:29];
+    [self.view addSubview:lbl];
 }
 
 
